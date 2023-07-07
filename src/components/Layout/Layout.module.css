@@ -1,0 +1,11 @@
+.container {
+    padding: 10px 1px 4px 8px;
+    border: 2px solid red;
+    width: 400px;
+    height: 75px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+.container > *{display: inline;}
